@@ -19,8 +19,6 @@ const options = {
 const refs = {
   btnStart: document.querySelector('button[data-start]'),
   input: document.querySelector('#datetime-picker'),
-  timer: document.querySelector('.timer'),
-  span: document.querySelector('span'),
   days: document.querySelector('span[data-days]'),
   hours: document.querySelector('span[data-hours]'),
   minutes: document.querySelector('span[data-minutes]'),
