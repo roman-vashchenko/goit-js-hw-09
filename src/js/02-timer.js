@@ -32,7 +32,7 @@ refs.btnStart.disabled = true;
 refs.btnStart.addEventListener('click', onStartClick);
 
 function getTime(selectedDate) {
-  if (this.defaultDate < selectedDate) {
+  if (this.defaultDate > selectedDate) {
     Notify.failure('Please choose a date in the future', {
       clickToClose: true,
     });
