@@ -23,12 +23,20 @@ img {
 
 .field {
   margin: 10px;
-}
-
-.field .value {
-  text-align: center;
+  margin-left: 0;
 }
 
 span {
   display: block;
+}
+
+.field .value {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.field .label {
+  text-transform: uppercase;
+  font-weight: 500;
 }
